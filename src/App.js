@@ -11,7 +11,6 @@ export default function App() {
   const initialState = { count: 0 };
 
   const reducer = (state, action) => {
-    console.log(state);
     switch (action.type) {
       case "increment":
         return { count: state.count + 1 };
